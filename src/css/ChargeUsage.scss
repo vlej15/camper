@@ -1,0 +1,241 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+.banner-title { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+html { 
+    font-size:62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contentsChargeUsage {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #666;
+    word-break: keep-all;
+    max-height: 99999px;
+    min-height: 460px;
+    margin:0 auto;
+    margin-top: 5vh;
+    // padding: 0 0 100px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .7s ease-out;
+    transform-origin: 50% 50%;
+    transition-delay: .2s;
+    opacity: 1;
+    top: 0px;
+    width: 90%;
+
+    .banner{
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0;
+    word-break: break-all;
+    text-align: center;
+    padding: 0px;
+    vertical-align: top;
+    margin-top: 3vh;
+
+        .banner-title {
+            color: #222;
+            line-height: 1.4;
+            letter-spacing: 0;
+            word-break: break-all;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            vertical-align: top;
+            font-size: 2.7rem;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-family: 'IBMPlexSansKR-Regular';
+            width: 420px;
+            font-size: 1.8rem;
+            margin: 0 auto;
+            background-color: #87a7b363;
+        }
+    }//banner
+
+    .list {
+        margin: 7vh 0 0 0;
+        vertical-align: top;
+        border-collapse: collapse;
+        width: 100%;
+        border-bottom: 1px solid #c8c8c8;
+        table-layout: fixed;
+        margin-bottom: 10vh;
+        
+            .charge-title {
+                padding: 25px 10px;
+                color: #444;
+                font-size: 1.7rem;
+                border-top: 3px solid #212121;
+                border-bottom: 1px solid #dcdcdc;
+                background-color: #f1f1f1;
+                text-align: center;
+                vertical-align: middle;
+                width: 400px;
+            }
+            th {
+                padding: 0 10px;
+                color: #444;
+                font-size: 1.7rem;
+                border-top: 3px solid #212121;
+                border-bottom: 1px solid #dcdcdc;
+                background-color: #f1f1f1;
+                text-align: center;
+                width: 100px;
+                vertical-align: middle;
+                // span {
+                //     font-size: 1.4rem;
+                //     font-weight: 400;
+                // }
+            }
+            tbody {
+                td {
+                    margin: 0px;
+                    height: 60px;
+                    padding: 10px 10px;
+                    color: #333;
+                    font-size: 1.7rem;
+                    line-height: 16px;
+                    border-top: 1px solid #dcdcdc;
+                    text-align: center;
+                    vertical-align: middle;
+
+                    a {
+                        color: #333;
+                        font-family: 'IBMPlexSansKR-Regular';
+                        font-weight: bold;
+                    }
+                }
+            }// tbody end
+        }// list end
+
+        .list2 {
+            margin: 7vh 0 0 0;
+            vertical-align: top;
+            border-collapse: collapse;
+            width: 100%;
+            border-bottom: 1px solid #c8c8c8;
+            table-layout: fixed;
+            margin-bottom: 100px;
+
+            .th-title {
+                padding: 25px 10px;
+                color: #444;
+                font-size: 1.7rem;
+                border-top: 3px solid #212121;
+                border-bottom: 1px solid #dcdcdc;
+                background-color: #f1f1f1;
+                text-align: center;
+                vertical-align: middle;
+                width: 400px;
+            }
+
+            th {
+                padding: 0 10px;
+                color: #444;
+                font-size: 1.7rem;
+                border-top: 3px solid #212121;
+                border-bottom: 1px solid #dcdcdc;
+                background-color: #f1f1f1;
+                text-align: center;
+                width: 150px;
+                vertical-align: middle;
+            }
+            tbody {
+                td {
+                    margin: 0px;
+                    height: 60px;
+                    padding: 10px 10px;
+                    color: #333;
+                    font-size: 1.7rem;
+                    line-height: 16px;
+                    border-top: 1px solid #dcdcdc;
+                    text-align: center;
+                    vertical-align: middle;
+
+                    a {
+                        color: #333;
+                        font-family: 'IBMPlexSansKR-Regular';
+                        font-weight: bold;
+                    }
+                }
+            }// tbody end
+        
+        }
+}// contentsChargeUsage end
+
+
+@media screen and (max-width: 479px) {
+    .contentsChargeUsage {
+        max-width: 100%;
+
+        .banner {
+            width: 90%;
+            margin: 0 auto;
+            word-break:keep-all;
+
+            .banner-title {
+                font-size: 2rem;
+            } 
+            .subtitle {
+                width: 50%;
+                margin: 0 auto;
+                font-size: 1.35rem;
+            }
+        }// banner end
+        
+        .list {
+            .charge-title {
+                width: 35%;
+                font-size: 1.3rem;
+                padding: 0;
+            }
+            th {
+                font-size: 1.3rem;
+            }
+            .khw, .price {
+                width: 20%;
+                padding: 12px 0;
+            }
+            tbody {
+                .list-title, .list-date, .list-khw, .list-price {
+                    font-size: 1.2rem;
+                }
+                .list-title {
+                    padding: 0 10px;
+                }
+                .list-khw, .list-price {
+                    width: 10%;
+                }
+        }//tbody end
+        }
+    }// contentsQlist end
+} // media end
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .contentsChargeUsage {
+        width: 100%;
+        .banner {
+            width: 90%;
+            margin: 0 auto;
+            word-break:keep-all;
+        }
+        .banner-title {
+            font-size: 26px;
+        }
+        .subtitle {
+            width: 100%;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+    }// contentsQList end
+}// media end

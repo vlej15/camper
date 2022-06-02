@@ -1,0 +1,450 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+* { font-family: 'IBMPlexSansKR-Light';}
+.banner-title { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; font-weight: bold; }
+
+
+html { 
+    font-size:62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.contentsInfoChange {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #666;
+    word-break: keep-all;
+    max-height: 99999px;
+    min-height: 460px; 
+    margin:0 auto;
+    margin-top: 50px;
+    // padding: 0 0 120px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .7s ease-out;
+    transform-origin: 50% 50%;
+    transition-delay: .2s;
+    opacity: 1;
+    top: 0px;
+    width: 1200px;
+    margin-bottom: 80px;
+
+
+    
+    .banner{
+        color: #222;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0;
+        word-break: break-all;
+        text-align: center;
+        padding: 0px;
+        vertical-align: top;
+        margin-top: 3vh;
+            .banner-title {
+                color: #222;
+                line-height: 1.4;
+                letter-spacing: 0;
+                word-break: break-all;
+                text-align: center;
+                margin: 0px;
+                padding: 0px;
+                vertical-align: top;
+                font-size: 2.7rem;
+                font-weight: bold;
+            }
+        .subtitle {
+            font-family: 'IBMPlexSansKR-Regular';
+            width: 450px;
+            font-size: 1.8rem;
+            margin: 0 auto;
+            background-color: #87a7b363;
+        }
+    }// banner end
+
+    .form {
+        width: 850px;
+        margin: 50px auto;
+        border: 1px solid #dedede;
+
+        
+    .form-input {
+        line-height: 1; 
+        word-break: break-all;
+        text-align: center;
+        border: none;
+        width: 800px;
+        align-items: center;
+        margin: 30px auto;
+
+        .form-id, .form-name {
+            display: flex;
+            flex-direction: row;
+            color: #222;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: left;
+            width: 500px;
+
+            .form-label {
+                float: left;
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                vertical-align: top;
+                font-size: 1.7rem;
+                font-weight: bold;
+                letter-spacing: -0.1px;
+                color: #3c3c3c;
+                line-height: 45px;
+                width: 120px;
+            }
+        
+            .input-text {
+                word-break: break-all;
+                width: 250px;
+                margin: 0px;
+                height: 45px;
+                padding: 0 14px;
+                color: #222;
+                font-size: 1.7rem;
+                border: 1px solid #dedede;
+                background-color: #fff;
+                outline: 0;
+                box-sizing: border-box;
+                vertical-align: top;
+                display: block;
+            }
+        }// form-id end
+
+        .form-email, .form-email2 {
+            display: flex;
+            flex-direction: row;
+            font-size: 14px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: left;
+            width: 500px;
+
+            .form-label {
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                vertical-align: top;
+                font-size: 1.7rem;
+                font-weight: bold;
+                letter-spacing: -0.1px;
+                color: #3c3c3c;
+                line-height: 45px;
+                width: 120px;
+            }
+        
+            .input-text {
+                word-break: break-all;
+                width: 250px;
+                margin: 0px;
+                height: 45px;
+                padding: 0 14px;
+                color: #222;
+                font-size: 1.6rem;
+                border: 1px solid #dedede;
+                background-color: #fff;
+                outline: 0;
+                box-sizing: border-box;
+                vertical-align: top;
+                display: block;
+            }
+            .btn-ct {
+                margin-left: 20px;
+                width: 95px;
+                height: 45px;
+                line-height: 45px;
+                text-decoration: none;
+                color: white;
+                background-color: #393e46;
+                border: #393e46;
+                font-size: 1.4rem;
+                font-weight: 500px;
+                cursor: pointer;
+            }
+        }// form-email end
+
+        .form-pw {
+            display: flex;
+            flex-direction: row;
+            font-size: 14px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: left;
+            width: 500px;
+
+            .form-label {
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                vertical-align: top;
+                font-size: 1.7rem;
+                font-weight: bold;
+                letter-spacing: -0.1px;
+                color: #3c3c3c;
+                line-height: 45px;
+                width: 120px;
+            }
+        
+            .input-text {
+                word-break: break-all;
+                width: 250px;
+                margin: 0px;
+                height: 45px;
+                padding: 0 14px;
+                color: #222;
+                font-size: 1.6rem;
+                border: 1px solid #dedede;
+                background-color: #fff;
+                outline: 0;
+                box-sizing: border-box;
+                vertical-align: top;
+                display: block;
+            }
+            .btn-ct {
+                margin-left: 20px;
+                width: 95px;
+                height: 45px;
+                line-height: 45px;
+                text-decoration: none;
+                color: white;
+                background-color: #393e46;
+                border: #393e46;
+                font-size: 1.4rem;
+                font-weight: 500px;
+                cursor: pointer;
+            }
+        }// form-pw end
+
+        .modal_background{
+                    position: fixed;
+                    top:0; left: 0; bottom: 0; right: 0;
+                    background: rgba(0, 0, 0, 0.8);
+                    margin: 0px;
+
+                    .contentsModal{
+                        position: absolute;
+                        top: calc(50vh - 190px); left: calc(50vw - 320px);
+                        background-color: #f6f5f5;
+                        display: flex;
+                        flex-direction: column;
+                        width: 650px;
+                        border-radius: 10px;
+
+                        .modal-area {
+                            width: 96%;
+                            margin: 0 auto;
+
+                            .close-area {
+                                text-align: right;
+                                font-size: 1.9rem;
+                                margin-top: 15px;
+                                cursor: pointer;
+                
+                                &:hover{
+                                    color:#52616b;
+                                }
+                            }
+                            .banner {
+                                margin-top: 2px;
+                                .banner-title {
+                                    color: #222;
+                                    line-height: 1.4;
+                                    letter-spacing: 0;
+                                    word-break: break-all;
+                                    text-align: center;
+                                    margin: 0px;
+                                    padding: 0px;
+                                    vertical-align: top;
+                                    font-size: 2rem;
+                                    font-weight: bold;
+                                }
+                            } // banner end
+
+                            .modal-form {
+                                margin-top: 20px;
+                                display: flex;
+                                align-items: center;
+                                flex-direction:column; 
+                                // background-color: blue;
+
+                                .form-insert {
+                                    display: flex;
+                                    flex-direction: row;
+                                    font-size: 14px;
+                                    padding: 10px;
+                                    text-align: left;
+                                    width: fit-content;
+                                    margin-left: 113px;
+
+                                    input {
+                                        word-break: break-all;
+                                        width: 250px;
+                                        margin: 0px;
+                                        height: 45px;
+                                        padding: 0 14px;
+                                        color: #222;
+                                        font-size: 1.6rem;
+                                        border: 1px solid #dedede;
+                                        background-color: #fff;
+                                        outline: 0;
+                                        box-sizing: border-box;
+                                        vertical-align: top;
+                                        display: block;
+                                        }
+                                    }
+                                    .subBtn {
+                                        margin-left: 20px;
+                                        width: 95px;
+                                        height: 45px;
+                                        line-height: 45px;
+                                        text-decoration: none;
+                                        color: white;
+                                        background-color: #393e46;
+                                        border: #393e46;
+                                        font-size: 1.4rem;
+                                        font-weight: 500px;
+                                        cursor: pointer;
+                                    }
+
+                                .form-insert2 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    font-size: 14px;
+                                    padding: 10px;
+                                    text-align: left;
+                                    width: fit-content;
+                                    input {
+                                        word-break: break-all;
+                                        width: 250px;
+                                        margin: 0px;
+                                        height: 45px;
+                                        padding: 0 14px;
+                                        color: #222;
+                                        font-size: 1.6rem;
+                                        border: 1px solid #dedede;
+                                        background-color: #fff;
+                                        outline: 0;
+                                        box-sizing: border-box;
+                                        vertical-align: top;
+                                        display: block;
+                                    }
+                                }
+                                .input-subtitle {
+                                    text-align: left;
+                                    color: rgb(126, 126, 126);
+                                    font-weight: 500;
+                                    margin: 0;
+                                    font-size: 13px;
+                                    margin-left: -55px;
+                                    padding: 3px 0px 5px;
+                                }
+                                
+                            }// modal-form end
+                            .btn-wrap {
+                width: fit-content;
+                margin-bottom: 30px;
+                .btn-submit {
+                    margin-top: 20px;
+                    width: 250px;
+                    height: 45px;
+                    line-height: 45px;
+                    text-decoration: none;
+                    color: white;
+                    background-color: #393e46;
+                    border: #393e46;
+                    font-size: 1.6rem;
+                    font-weight: 500px;
+                    cursor: pointer;
+                    }
+            }
+                        }// modal-area end
+                    }                                  
+                }
+
+        .form-carNumber{
+            display: flex;
+            flex-direction: row;
+            color: #222;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: left;
+            width: 500px;
+
+            .form-label {
+                float: left;
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                vertical-align: top;
+                font-size: 1.7rem;
+                font-weight: bold;
+                letter-spacing: -0.1px;
+                color: #3c3c3c;
+                line-height: 45px;
+                width: 120px;
+            }
+        
+            .input-text {
+                word-break: break-all;
+                width: 250px;
+                margin: 0px;
+                height: 45px;
+                padding: 0 14px;
+                color: #222;
+                font-size: 1.7rem;
+                border: 1px solid #dedede;
+                background-color: #fff;
+                outline: 0;
+                box-sizing: border-box;
+                vertical-align: top;
+                display: block;
+                }
+            }// form-pw end
+
+            .p-wrap {
+                margin: 0 auto;
+                padding: 10px 0 0;
+                width: fit-content;
+                p {
+                    float: left;
+                    font-size: 1.7rem;
+                }
+            }
+
+            .btn-area {
+                margin-top: 40px;
+                .change-btn {
+                    width: 250px;
+                    height: 45px;
+                    line-height: 45px;
+                    text-decoration: none;
+                    color: white;
+                    background-color: #393e46;
+                    border: #393e46;
+                    font-size: 1.6rem;
+                    font-weight: 500px;
+                    cursor: pointer;
+                    }
+                }
+        }// form-input end
+    }// .form end
+}// contentsInfoChange end

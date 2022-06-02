@@ -1,0 +1,113 @@
+.modal-background{
+    z-index: 9999;
+    position: fixed;
+    top:0; left: 0; bottom: 0; right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+
+    .contentsModal{
+        position: absolute;
+        top: calc(50vh - 190px); left: calc(50vw - 200px);
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 410px;
+        border-radius: 10px;
+        color: #464646;
+        font-size: 13px;
+        line-height: 22px;
+        border: 1px solid #000;
+
+        .title {
+            line-height: 20px;
+            text-align: center;
+            color: #464646;
+            font-size: 20px;
+            width: 100px;
+            margin: 0 auto;
+            font-family: 'Spoqa Han Sans';
+            font-weight: bold;
+            margin-top: 10px;
+        }// title end
+
+        .notify {
+            text-align: center;
+            .text {
+                width: 350px;
+                height: 240px;
+                background: #fafafa;
+                border: 1px solid #eaeaea;
+                font-size: 14px;
+                letter-spacing: -0.1px;
+                color: #222222;
+                text-align: center;
+                border-radius: 4px;
+                white-space: normal;
+                resize: none;
+                padding-top: 5px;
+            }
+        }// notify end
+
+        .modal-btn {
+            width: 156px;
+            margin: 7px auto;
+            // margin: 15px 0 5px 0;
+            .ok {
+                font-weight: bold;
+                letter-spacing: 0;
+                word-break: break-all;
+                vertical-align: top;
+                cursor: pointer;
+                display: inline-block;
+                margin: 0 4px;
+                font-size: 1.2rem;
+                line-height: 30px;
+                float: center;
+                text-align: center;
+                box-sizing: border-box;
+                text-decoration: none;
+                color: #fff;
+                border: 1px solid #52616b;
+                background-color: #52616b;
+                width: 70px;
+                padding: 0;
+                height: 38px;
+                border-radius: 2px;
+                font-family: 'IBMPlexSansKR-Regular';
+            }
+            .cancel {
+                font-weight: bold;
+                letter-spacing: 0;
+                word-break: break-all;
+                vertical-align: top;
+                cursor: pointer;
+                display: inline-block;
+                margin: 0 4px;
+                font-size: 1.2rem;
+                line-height: 30px;
+                float: center;
+                text-align: center;
+                box-sizing: border-box;
+                text-decoration: none;
+                color: #fff;
+                border: 1px solid #464646;
+                background-color: #464646;
+                width: 70px;
+                padding: 0;
+                height: 38px;
+                border-radius: 2px;
+                cursor: pointer;
+                font-family: 'IBMPlexSansKR-Regular';
+            }
+        }// btn-area
+        
+        .etc {
+            font-size: 14px;
+            margin: 12px 0;
+            text-align: center;
+            font-family: 'IBMPlexSansKR-Regular';
+        }
+    }// contentsModal end
+}// modal-background end

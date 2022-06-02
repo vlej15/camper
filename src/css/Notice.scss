@@ -1,0 +1,199 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+.banner-title, .th-title, th { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html { 
+    font-size:62.5%;
+    margin: 0;
+    padding: 0;
+}
+.contentsNotice {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #666;
+    word-break: keep-all;
+    max-height: 99999px;
+    min-height: 460px;
+    margin:0 auto;
+    margin-top: 10vh;
+    // padding: 0 0 100px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .7s ease-out;
+    transform-origin: 50% 50%;
+    transition-delay: .2s;
+    opacity: 1;
+    top: 0px;
+    width: 90%;
+
+    .banner{
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0;
+    word-break: break-all;
+    text-align: center;
+    padding: 0px;
+    vertical-align: top;
+
+        .banner-title {
+            color: #222;
+            line-height: 1.4;
+            letter-spacing: 0;
+            word-break: break-all;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            vertical-align: top;
+            font-size: 2.7rem;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-family: 'IBMPlexSansKR-Regular';
+            width: 390px;
+            font-size: 1.8rem;
+            margin: 0 auto;
+            background-color: #87a7b363;
+        }
+    }//banner
+
+    .list {
+        margin: 10vh 0 0 0;
+        vertical-align: top;
+        border-collapse: collapse;
+        width: 100%;
+        border-bottom: 1px solid #c8c8c8;
+        table-layout: fixed;
+
+            .th-title {
+                padding: 25px 10px;
+                color: #444;
+                font-size: 1.7rem;
+                border-top: 3px solid #212121;
+                border-bottom: 1px solid #dcdcdc;
+                background-color: #f1f1f1;
+                text-align: center;
+                vertical-align: middle;
+                width: 600px;
+            }
+            th {
+                padding: 0 10px;
+                color: #444;
+                font-size: 1.7rem;
+                border-top: 3px solid #212121;
+                border-bottom: 1px solid #dcdcdc;
+                background-color: #f1f1f1;
+                text-align: center;
+                width: 100px;
+
+            }
+            tbody {
+                tr {   
+                    &:hover{
+                        background-color: #c5cfd65b;
+                        } 
+                    td {
+                        font-family: 'IBMPlexSansKR-Regular';
+                        margin: 0px;
+                        height: 60px;
+                        padding: 10px 10px;
+                        color: #333;
+                        font-size: 1.7rem;
+                        line-height: 16px;
+                        border-top: 1px solid #dcdcdc;
+                        text-align: center;
+                        vertical-align: middle;
+                        a:link {text-decoration: none; color: rgb(29, 29, 29);}
+                        a:visited {text-decoration: none; color: rgb(29,29,29);}
+                    }// ted end
+                    .td-title {
+                        font-family: 'IBMPlexSansKR-Regular';
+                        text-align: left;
+                        padding-left: 50px;
+                        a{
+                            font-family: 'IBMPlexSansKR-Medium';
+                        }
+                    }
+            }// tr end
+            }// tbody end
+        }// list end
+}// contentsNotice end
+.pageNation {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 5vh;
+    button {
+        font-size: 16px;
+        margin: 20px auto;
+    }
+} 
+
+
+
+@media screen and (max-width: 479px) {
+    .contentsNotice {
+        max-width: 100%;
+
+        .banner {
+            width: 90%;
+            margin: 0 auto;
+            word-break:keep-all;
+
+            .banner-title {
+                font-size: 2rem;
+            } 
+            .subtitle {
+                width: 70%;
+                margin: 0 auto;
+                font-size: 1.35rem;
+            }
+        }// banner end
+        
+        .list {
+            width: 100%;
+            .charge-title {
+                width: 35%;
+                font-size: 1.3rem;
+                padding: 0;
+            }
+            th {
+                font-size: 1.3rem;
+            }
+            .khw, .price {
+                width: 20%;
+                padding: 12px 0;
+            }
+            tbody {
+                .list-title, .list-date, .list-khw, .list-price {
+                    font-size: 1.2rem;
+                }
+                .list-title {
+                    padding: 0 10px;
+                }
+                .list-khw, .list-price {
+                    width: 10%;
+                }
+        }//tbody end
+        }
+    }// contentsQlist end
+} // media end
+

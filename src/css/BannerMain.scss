@@ -1,0 +1,186 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+h3 { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+@font-face {
+    font-family: 'Wemakeprice-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size:62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.bannerMain {
+    position: relative;
+}
+// .bannerMain {
+//     position: relative;
+//     width: 100%;
+
+//     .bm_box {
+//         position: absolute;
+//     width: 100%;
+//     height: 320px;
+//     top: 0;
+//     margin: 0 auto;
+//     }
+// }
+
+.img-area {
+    background-color: #eeeeee;
+    // margin-bottom: 10px;
+    // position: relative;
+    // width: 100%;
+    // height: auto;
+    // z-index: -1;
+img {
+    width: 100%;
+    height: auto;
+    }
+}// img-area end
+
+.text-area {
+    font-family: 'ChosunKm';
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 6rem;
+    top: 50%;
+    // bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    .wecreate {
+        letter-spacing: 5px;
+        font-family: 'Wemakeprice-Bold';
+    }
+    .new {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 1.6rem;
+        letter-spacing: 3px;
+    }
+}
+
+.frame {
+    text-align: center;
+    border: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    width: 500px;
+    height: 320px;
+    opacity: 1;
+    transform: translate(-50%, -55%);
+    // transform: scaleX(1) scaleY(1);
+    .topline {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        box-sizing: border-box;
+        border: 1px solid #d4d4d4;
+        opacity: 0.3;
+        top: 0;
+        border-bottom: 0;
+    }
+
+    .bottomline {
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        box-sizing: border-box;
+        border: 1px solid #d4d4d4;
+        opacity: 0.3;
+        bottom: 0;
+        border-top: 0;
+    }
+    
+    .topedge {
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        position: absolute;
+        width: 19px;
+        height: 19px;
+        box-sizing: border-box;
+        border: 1px solid #fff;
+        left: 0;
+        top: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .bottomedge {
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        position: absolute;
+        width: 19px;
+        height: 19px;
+        box-sizing: border-box;
+        border: 1px solid #fff;
+        right: 0;
+        bottom: 0;
+        border-top: 0;
+        border-left: 0;
+    }
+}
+
+.arrow-area {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -200%);
+    .arrow-icon {
+        font-family: 'IBMPlexSansKR-Light';
+        color: rgb(243, 243, 243);
+        font-size: 23px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
+    .arrow-title {
+        font-family: 'IBMPlexSansKR-Light';
+        color: #d4d4d4;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .img-area {
+        max-width: 100%;
+        img {
+            height: 250px;
+        }
+    }
+    .text-area {
+        width: 100%;
+
+        h3 {
+            
+        }
+    }
+    .frame {
+        display: none;
+    }
+    .arrow-area {
+        .arrow-icon {
+            display: none;
+        }
+        .arrow-title {
+            display: none;
+        }
+    }
+} // media end
+

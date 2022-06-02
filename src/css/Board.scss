@@ -1,0 +1,164 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+.banner-title { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+html { 
+    font-size:62.5%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.contentsBoard {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #666;
+    word-break: keep-all;
+    max-height: 99999px;
+    min-height: 460px;
+    margin:0 auto;
+    margin-top: 10vh;
+    // padding: 0 0 100px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .7s ease-out;
+    transform-origin: 50% 50%;
+    transition-delay: .2s;
+    opacity: 1;
+    top: 0px;
+    width: 90%;
+    // margin-bottom: 400px;
+
+    .banner{
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0;
+    word-break: break-all;
+    text-align: center;
+    padding: 0px;
+    vertical-align: top;
+
+        .banner-title {
+            color: #222;
+            line-height: 1.4;
+            letter-spacing: 0;
+            word-break: break-all;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            vertical-align: top;
+            font-size: 2.7rem;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-family: 'IBMPlexSansKR-Regular';
+            width: 410px;
+            font-size: 1.8rem;
+            margin: 0 auto;
+            background-color: #87a7b363;
+        }
+    }//banner
+
+    .list {
+        margin: 10vh 0 0 0;
+        vertical-align: top;
+        border-collapse: collapse;
+        width: 100%;
+        border-bottom: 1px solid #c8c8c8;
+        table-layout: fixed;
+
+            .th-title {
+                padding: 25px 10px;
+                color: #444;
+                font-size: 1.7rem;
+                border-top: 3px solid #212121;
+                border-bottom: 1px solid #dcdcdc;
+                background-color: #f1f1f1;
+                text-align: center;
+                vertical-align: middle;
+                width: 600px;
+            }
+            th {
+                padding: 0 10px;
+                color: #444;
+                font-size: 1.7rem;
+                border-top: 3px solid #212121;
+                border-bottom: 1px solid #dcdcdc;
+                background-color: #f1f1f1;
+                text-align: center;
+                width: 100px;
+
+            }
+            tbody {
+                tr {   
+                    &:hover{
+                        background-color: #c5cfd65b
+                        } 
+                    td {
+                        margin: 0px;
+                        height: 60px;
+                        padding: 10px 10px;
+                        color: #333;
+                        font-size: 1.7rem;
+                        line-height: 16px;
+                        border-top: 1px solid #dcdcdc;
+                        text-align: center;
+                        vertical-align: middle;
+                        a:link {text-decoration: none; color: rgb(29, 29, 29);}
+                        a:visited {text-decoration: none; color: rgb(29,29,29);}
+                    }// ted end
+                    .td-title {
+                        font-family: 'IBMPlexSansKR-Regular';
+                        text-align: left;
+                        padding-left: 50px;
+                        a{
+                            font-family: 'IBMPlexSansKR-Medium';
+                        }
+                    }
+            }// tr end
+            }// tbody end
+        }// list end
+}// contentsNotice end
+
+            
+.write-btn{
+    position: absolute;
+    right: 200px;
+    max-height: 99999px;
+    margin: 0;
+    font-style: normal;
+    height: 55px;
+    width: 55px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 55px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-color: #393e46;
+    background-color: #393e46;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    border-radius: 50%;
+
+    .pencil {
+        margin-left: 2px;
+    }
+}// write-btn
+
+.pageNation {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 5vh;
+    button {
+        font-size: 16px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+} 
